@@ -1,0 +1,35 @@
+{
+  "name": "ucl-cli",
+  "version": "1.0.0",
+  "description": "The CLI for the UCL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/ucl-cli.git"
+  },
+  "keywords": [
+    "UCL",
+    "API",
+    "CLI",
+    "command line"
+  ],
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "bin": {
+    "ucl": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoDF/ucl-cli/issues"
+  },
+  "homepage": "https://github.com/HugoDF/ucl-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "uclapi": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
